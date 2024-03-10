@@ -25,7 +25,7 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за неделю составила " + minOfPay + " рублей");
         System.out.println("Максимальная сумма трат за неделю составила " + maxOfPay + " рублей");
-        //Задание 3 начало
+        //Задание 3 begin
         System.out.println("Задание 3 ");
         int[] payOfWeek = new int[5];
         sumOfMonth = 0;
@@ -47,7 +47,7 @@ public class Main {
         if (wholePart%10 ==1 ) endOfWord="ь";
         System.out.println("Cредняя сумма трат за месяц составила " + wholePart +
                 " рубл" + endOfWord +" " +  fracPart + " коп");
-        //Задание 3  окончание
+        //Задание 3  end
         System.out.println("Задание 4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
